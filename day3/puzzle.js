@@ -13,7 +13,7 @@ var currentX = 0,
     santaY = 0,
     onlySanta = false; //true if first puzzle, false if second
 
-houseArray[0][0] = 2;
+houseArray[0][0] = onlySanta ? 1 : 2;
 
 for(var moveIter in input) {
     var currentMove = input[moveIter];
